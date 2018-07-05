@@ -1,0 +1,29 @@
+@import "../../theme";
+
+.rate-card {
+    justify-self: center;
+    width: 240px;
+    border: solid 1px $border-color;
+    background: $background-color-light;
+    margin: 3px;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,.2);
+
+    .indicator-placeholder {
+        width: 22px;
+    }
+
+    .rate-card-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 80px;
+        margin-top: 10px;
+    }
+
+    .rate-card-title {
+        background-color: $title-background-color;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+    }
+}

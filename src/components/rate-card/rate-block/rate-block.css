@@ -1,0 +1,41 @@
+.rate-block {
+  width: 110px;
+  height: 55px;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: relative;
+  padding: 10px; }
+  .rate-block svg {
+    stroke-width: 1px;
+    stroke: #ccc;
+    fill: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0; }
+  .rate-block:hover svg {
+    stroke: #59ABE3;
+    stroke-width: 2px; }
+  .rate-block:hover.sell-block {
+    color: #fff; }
+    .rate-block:hover.sell-block svg {
+      fill: #CF000F; }
+  .rate-block:hover.buy-block {
+    color: #fff; }
+    .rate-block:hover.buy-block svg {
+      fill: #03A678; }
+  .rate-block.sell-block {
+    color: #CF000F;
+    text-align: left; }
+  .rate-block.buy-block {
+    color: #03A678;
+    text-align: right; }
+  .rate-block .block-title {
+    position: relative;
+    z-index: 1;
+    font-size: .5rem; }
+    .rate-block .block-title .block-type {
+      text-transform: capitalize; }
+  .rate-block .block-value {
+    position: relative;
+    z-index: 1; }

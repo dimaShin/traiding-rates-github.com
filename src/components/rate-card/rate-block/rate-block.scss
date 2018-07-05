@@ -1,0 +1,67 @@
+@import "../../../theme";
+
+.rate-block {
+    width: 110px;
+    height: 55px;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
+
+    svg {
+        stroke-width: 1px;
+        stroke: $border-color;
+        fill: #fff;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 0;
+    }
+
+    &:hover {
+
+        svg {
+            stroke: $blue-color;
+            stroke-width: 2px;
+        }
+
+        &.sell-block {
+            color: #fff;
+            svg {
+                fill: $red-color;
+            }
+        }
+        &.buy-block {
+            color: #fff;
+            svg {
+                fill: $green-color;
+            }
+        }
+    }
+
+    &.sell-block {
+        color: $red-color;
+        text-align: left;
+    }
+
+    &.buy-block {
+        color: $green-color;
+        text-align: right;
+    }
+
+
+    .block-title {
+        position: relative;
+        z-index: 1;
+        font-size: .5rem;
+
+        .block-type {
+            text-transform: capitalize;
+        }
+    }
+
+    .block-value {
+        position: relative;
+        z-index: 1;
+    }
+}

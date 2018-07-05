@@ -1,0 +1,13 @@
+@import "../../../theme";
+
+.rate-diff-indicator {
+    font-size: 1.5rem;
+
+    .fa-arrow-up {
+        color: $green-color;
+    }
+
+    .fa-arrow-down {
+        color: $red-color;
+    }
+}

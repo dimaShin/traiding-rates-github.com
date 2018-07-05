@@ -1,0 +1,6 @@
+.rate-diff-indicator {
+  font-size: 1.5rem; }
+  .rate-diff-indicator .fa-arrow-up {
+    color: #03A678; }
+  .rate-diff-indicator .fa-arrow-down {
+    color: #CF000F; }
