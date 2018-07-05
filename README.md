@@ -8,6 +8,8 @@ To run test suites run
 
 <code>npm test</code>
 
+[Demo link](https://dimashin.github.io/traiding-rates-github.com/)
+
 Few words about solution
 
 Initially I was going to show everything I like in react ecosystem in this solution
